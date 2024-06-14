@@ -1,0 +1,112 @@
+html{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eff3f3; 
+    background-color: rgb(230, 230, 230); 
+}
+
+.container {
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 550px;
+    width: 430px;
+    /* border: solid black 2px; */
+    background-color: white;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .logo {
+    /* border: solid 2px rgb(31, 179, 17); */
+    height: 100px;
+    width: 95%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+.symbol-Z {
+    margin-right: 2px;
+    color: purple;
+}
+
+.symbol-C {
+    margin-left: 2px;
+    color: rgb(0, 128, 117);
+
+}
+
+.zcoder {
+    margin-top: -4px;
+    font-size: 0.8rem;
+}
+
+.inputs {
+    /* border: solid 2px orangered; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
+    height: 200px;
+    margin-bottom: 30px;
+}
+
+.input-elements{
+    background-color: #eff3f3;
+    width: 80%;
+    height: 45px;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding: 3px 15px;
+    background-color: green;
+}
+
+.button-signin{
+    width: 87%;
+    height: 45px;
+    font-size: 1rem;
+    border-radius: 3px;
+    padding: 3px 15px;
+}
+
+.button-signin:hover{
+    background-color: rgb(47, 252, 64);
+    color: white;
+}
+
+
+footer p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.tags{
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.tags a{
+    margin: 0 20px;
+    text-decoration: none;
+    color: grey;
+}

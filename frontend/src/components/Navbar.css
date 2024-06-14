@@ -1,0 +1,33 @@
+nav{
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    background-color: black;
+    background-color: rgba(27, 90, 76, 0.6);
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+    margin: 10px 30px;
+    color: white;
+}
+
+a:hover{
+    color: #ae1ad3;
+}
+
+.active{
+    color: rgb(4, 85, 136);
+}
+

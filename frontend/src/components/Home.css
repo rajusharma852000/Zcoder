@@ -1,0 +1,131 @@
+.main{
+    width: 100%;
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    color: white;
+}
+
+
+.left-container{
+    width: 490px;
+    height: 292px;
+}
+
+
+.left-symbol{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 99%;
+    height: 200px;
+    
+}
+.left-create-symbol{
+    /* border: solid rgb(197, 27, 27) 2px; */
+    position: relative;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10rem;
+}
+
+
+.left-create-symbol-Z{
+    color: purple;
+    margin-right: 10px;
+}
+
+.left-create-symbol-C{
+    color: rgb(0, 128, 117);
+    margin-left: 10px;
+
+}
+
+.left-symbol-subheading{
+    margin-top: -15px;
+    font-size: 1.3rem;
+}
+.left-symbol-subheading p{
+    letter-spacing: 4px;
+}
+
+
+.left-info{
+    font-size: 1.4rem;
+    padding: 0px 20px;
+    width: 99%;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+
+
+
+.right-container{
+    /* border: solid 2px black; */
+    max-width: 550px;
+    height: 292px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container .right-heading{
+    /* border: solid 2px purple; */
+    color: purple;
+    width: 95%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.right-container .right-para{
+    /* border: solid 2px rgb(79, 79, 151); */
+    width: 95%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.right-container .right-para p{
+    font-size: 1.1rem;
+    padding: 5px 10px;
+    line-height: 1.5;
+}
+
+.right-container .create-account-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 5px 10px;
+    width: 139px;
+    height: 43px;
+    border-radius: 25px;
+    text-decoration: none;
+    border: solid purple 1px;
+    background: rgba(128, 0, 128, 0.15);
+    cursor: pointer;
+
+}
+
+.right-container .create-account-button:hover{
+    background-color: purple;
+}
+
+

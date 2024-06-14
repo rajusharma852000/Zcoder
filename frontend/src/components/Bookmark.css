@@ -1,0 +1,306 @@
+/* ******************************************************************************************* */
+/*1. Bookmark CSS */
+.bookmark-card {
+    position: relative;
+    font-size: 1rem;
+    padding: 6px 13px;
+    width: 80%;
+    margin: 20px auto;
+    color: white;
+    border: solid rgb(135, 206, 235) 1px;
+    background-color: rgba(135, 206, 235, 0.1);
+}
+
+.custom-atom-one-dark .syntaxhighlighter {
+    background-color: #000000;
+}
+
+.tool-icon {
+    font-size: 1rem;
+    /* border: solid rgb(135, 206, 235) 1px; */
+    background-color: rgba(135, 206, 235, 0.1);
+    position: relative;
+    cursor: pointer;
+    border-radius: 50%;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+#plus-icon {
+    font-size: 1rem;
+    padding: 0 4px;
+    color: rgb(255, 125, 3);
+}
+
+#star-icon {
+    color: white;
+    padding: 0 3px;
+}
+
+#delete-icon {
+    padding: 0px 3px;
+    color: #ff2222;
+}
+
+#edit-icon {
+    padding: 0px 1px;
+    color: rgb(63, 183, 219);
+}
+
+#link-icon {
+    font-size: 0.9rem;
+    padding: 2px 1px;
+}
+
+#redirect-icon {
+    top: 5px;
+    height: 19px;
+    width: 19px;
+}
+
+#comment-icon {
+    color: #ffffff;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+.accordian-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+    color: white;
+    ;
+}
+
+#lock-icon {
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 21px;
+    height: 21px;
+    margin-right: 1px;
+}
+
+#bookmark-icon {
+    margin-right: 1px;
+    bottom: 1px;
+    font-size: 1rem;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 17px;
+    height: 17px;
+    border: solid rgb(135, 206, 235) 1px;
+    background-color: rgba(135, 206, 235, 0.1);
+
+}
+
+#bookmark-icon:hover {
+    background-color: rgb(135, 206, 235);
+}
+
+.tool-icon:hover {
+    background-color: rgb(135, 206, 235);
+}
+
+.tool-name {
+    margin-right: 10px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.bookmark-actions {
+    margin: 10px 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 10px;
+}
+
+.bookmark-buttons {
+    min-width: 85px;
+    margin: 0 4px;
+    padding: 5px 5px;
+    font-size: 0.9rem;
+    background-color: rgba(207, 10, 53, 0.2);
+    color: white;
+    cursor: pointer;
+}
+
+#button-addMore {
+    border: solid purple 1px;
+    background: rgba(128, 0, 128, 0.15);
+}
+
+#button-deleteAll {
+    border: solid rgb(128, 0, 32) 1px;
+    background: rgba(128, 0, 28, 0.15);
+}
+
+#button-addMore:hover {
+    background-color: purple;
+
+}
+
+#button-deleteAll:hover {
+    background-color: #ff0000;
+}
+
+#disabled-button-deleteAll {
+    background-color: #adadad;
+    cursor: not-allowed;
+}
+
+#visibility {
+    color: white;
+    width: 88px;
+    height: 29px;
+    font-size: 1rem;
+}
+
+/* accordian */
+.bookmark-problem-title {
+    width: 98%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: black;
+    padding: 4px 10px;
+    background: rgb(0 21 128 / 15%);
+}
+
+.bookmark-problem-title:hover {
+    background-color: #000622;
+}
+
+.boomark-hide-question {
+    color: #8b7f75;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.boomark-show-question {
+    color: #8b7f75;
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.bookmark-h3 {
+    margin-right: 20px;
+    color: white;
+}
+
+
+/* ******************************************************************************************* */
+/* 2. modal CSS */
+.solution-form {
+    display: none;
+}
+
+.solution-modal {
+    position: fixed;
+    top: 7%;
+    left: 5%;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    z-index: 1000;
+}
+
+.solution-modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#solution-modal-textarea {
+    width: 80%;
+    height: 80%;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    font-family: sans-serif;
+}
+
+.solution-modal-buttons {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+
+.solution-modal-button {
+    width: 80px;
+    height: 40px;
+    color: white;
+    margin: 5px 0px 5px 10px;
+    cursor: pointer;
+}
+
+.solution-modal-close-button {
+    background-color: #CF0A35;
+}
+
+.solution-modal-save-button {
+    background-color: #097555;
+}
+
+.solution-modal-close-button:hover {
+    background-color: #a10728;
+}
+
+.solution-modal-save-button:hover {
+    background-color: #044d37;
+}
+
+.solution-modal-disabled-save-button {
+    background-color: #adadad;
+    cursor: not-allowed;
+
+}
+
+
+/* link modal */
+.link-form {
+    display: none;
+}
+
+.link-modal {
+    width: 500px;
+    height: 260px;
+    margin: 15px 0;
+    background-color: rgb(186, 161, 226);
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1000;
+}
+
+#link {
+    width: 80%;
+    height: 42px;
+    padding: 4px 10px;
+    position: relative;
+    margin: 5px 0 10px 0;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+
+}
+
+.link-modal-label {
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
